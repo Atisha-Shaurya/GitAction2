@@ -34,3 +34,15 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  Dispay:
+   
+    runs-on: ubuntu-latest
+
+
+    steps:
+     
+      - uses: actions/checkout@v2
+
+     
+      - name: Run a one-line script
+        run: echo Atishaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!
