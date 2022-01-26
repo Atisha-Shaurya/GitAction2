@@ -50,6 +50,7 @@ jobs:
   Production:
    
     runs-on: ubuntu-latest
+    needs: Atisha
 
 
     steps:
