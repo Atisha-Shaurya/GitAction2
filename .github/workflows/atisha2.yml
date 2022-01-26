@@ -73,4 +73,32 @@ jobs:
       - name: Run a one-line script
         run: echo Atishaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!
         
+  ATisha1:
+   
+    runs-on: ubuntu-latest
+
+    steps:
+     
+      - uses: actions/checkout@v2
+
+     
+      - name: Run a one-line script
+        run: echo Atishaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!
+        
+           
+  ATisha2:
+   
+    runs-on: ubuntu-latest
+    needs: ATisha1
+
+
+    steps:
+     
+      - uses: actions/checkout@v2
+
+     
+      - name: Run a one-line script
+        run: echo Atishaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!    
+             
+        
 
